@@ -21,7 +21,7 @@ int main(){
     cout<<coller;
     return 0;
 }
-// Déclare u charactère N et affiche le :
+// Déclare un charactère N et affiche le :
 
 int main(){
     char c='N';
@@ -160,4 +160,5 @@ for(int i=0 ; i<minus.length() ; i++){
 cout<<" la conversion en majuscule est : "<<majus;
 cout<<" la conversion en miniscule  est : "<<minus;
     return 0;
+
 }
