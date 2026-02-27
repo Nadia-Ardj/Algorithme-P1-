@@ -10,6 +10,9 @@ int main(){
 
     cout<<"entrer la valeur des coefficients  :  ";
     cin>>a>>b>>c;
+    if(a==0){
+        cout<<"ce n est pas une equation du second degre"<<endl;
+    }
     delta = (b*b) - 4*(a*c);
 
     if(delta==0){
